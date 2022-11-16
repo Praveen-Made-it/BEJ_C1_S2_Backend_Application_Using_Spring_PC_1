@@ -8,4 +8,8 @@
 package com.niiit.jdp.product;
 
 public class Product {
+    private int productId;
+    private String name;
+    private String productStatus;
+    private String ProductReview;
 }
