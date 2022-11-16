@@ -20,4 +20,9 @@ public class ProductConfig {
     public Product getProduct2() {
         return new Product(2, "Iphone 14 ProMax 128Gb", "Delivered", "Not Bad");
     }
+
+    @Bean("product3")
+    public Product getProduct3() {
+        return new Product(3, "IFB Washing Machine", "In Transist", "Pending");
+    }
 }
