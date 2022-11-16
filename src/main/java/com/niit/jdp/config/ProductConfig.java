@@ -16,4 +16,8 @@ public class ProductConfig {
         return new Product(1, "Mi Tv", "Delivered", "Good");
     }
 
+    @Bean("product2")
+    public Product getProduct2() {
+        return new Product(2, "Iphone 14 ProMax 128Gb", "Delivered", "Not Bad");
+    }
 }
