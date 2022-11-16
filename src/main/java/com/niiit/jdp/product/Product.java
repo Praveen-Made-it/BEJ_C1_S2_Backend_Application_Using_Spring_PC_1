@@ -54,4 +54,14 @@ public class Product {
     public void setProductReview(String productReview) {
         ProductReview = productReview;
     }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId=" + productId +
+                ", name='" + name + '\'' +
+                ", productStatus='" + productStatus + '\'' +
+                ", ProductReview='" + ProductReview + '\'' +
+                '}';
+    }
 }
