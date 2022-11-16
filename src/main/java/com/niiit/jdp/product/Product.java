@@ -12,4 +12,7 @@ public class Product {
     private String name;
     private String productStatus;
     private String ProductReview;
+
+    public Product() {
+    }
 }
