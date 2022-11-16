@@ -1,4 +1,4 @@
-package com.niiit.jdp;
+package com.niit.jdp;
 
 /**
  * Hello world!

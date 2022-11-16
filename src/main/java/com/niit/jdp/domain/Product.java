@@ -5,7 +5,7 @@
  */
 
 
-package com.niiit.jdp.product;
+package com.niit.jdp.domain;
 
 public class Product {
     private int productId;
