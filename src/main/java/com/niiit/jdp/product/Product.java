@@ -15,4 +15,11 @@ public class Product {
 
     public Product() {
     }
+
+    public Product(int productId, String name, String productStatus, String productReview) {
+        this.productId = productId;
+        this.name = name;
+        this.productStatus = productStatus;
+        ProductReview = productReview;
+    }
 }
